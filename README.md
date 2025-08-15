@@ -29,7 +29,7 @@ This app allows users to input their health metrics and get an instant predictio
 
 Install the required packages using:
 
-```bash
+
 pip install streamlit pandas scikit-learn joblib
 
 🚀 How to Run
@@ -40,17 +40,17 @@ git clone https://github.com/yourusername/heart-stroke-prediction.git
 cd heart-stroke-prediction
 
 2. Download the model files:
-
+```
 Ensure the following files are present in the project directory:
 
 . LogisticRegression.pkl
 . scaler.pkl
 . columns.pkl
-
+```
 3. Run the app:
-
+```
 streamlit run app.py
-
+```
 4. Open the app:
 
 The app will open in your default web browser at (https://ashish-minj1290-ml-project2025a1-app-bsjm38.streamlit.app/)
@@ -64,7 +64,7 @@ The app preprocesses the input to match the model's expected format.
 The input is scaled using the provided scaler.
 The model predicts the risk of heart disease.
 The result is displayed as either "High Risk" or "Low Risk".
-
+```
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 📂 Project Structure
 
@@ -75,7 +75,7 @@ The result is displayed as either "High Risk" or "Low Risk".
 ├── columns.pkl            # Expected columns for the model
 └── README.md              # Project documentation
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+```
 📥 Model Files
 
 . LogisticRegression.pkl: Pre-trained Logistic Regression model.
