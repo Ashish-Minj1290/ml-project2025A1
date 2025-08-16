@@ -64,18 +64,7 @@ The app preprocesses the input to match the model's expected format.
 The input is scaled using the provided scaler.
 The model predicts the risk of heart disease.
 The result is displayed as either "High Risk" or "Low Risk".
-```
----------------------------------------------------------------------------------------------------------------------------------------------------------------
-📂 Project Structure
 
-.
-├── app.py                 # Main Streamlit application
-├── LogisticRegression.pkl # Pre-trained model
-├── scaler.pkl             # Scaler for input features
-├── columns.pkl            # Expected columns for the model
-└── README.md              # Project documentation
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-```
 📥 Model Files
 
 . LogisticRegression.pkl: Pre-trained Logistic Regression model.
